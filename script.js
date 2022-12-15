@@ -7,5 +7,5 @@ function showMenu() {
 }
 
 function hideMenu() {
-    navLinks.style.right = "-210px"
+    navLinks.style.right = "-205px"
 }

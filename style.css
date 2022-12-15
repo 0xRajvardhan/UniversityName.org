@@ -117,7 +117,7 @@ nav .fa-solid {
         height: 100vh;
         width: 200px;
         top: 0;
-        right: -210px;
+        right: -205px;
         text-align: left;
         z-index: 2;
         transition: 0.7s;
@@ -377,7 +377,7 @@ h3 {
 .sub-header {
     width: 100%;
     height: 50vh;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(img/background.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(img/background.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -484,7 +484,8 @@ h3 {
     text-align: left;
 }
 
-.comment-form input, textarea {
+.comment-form input,
+.comment-form textarea {
     width: 100%;
     padding: 10px;
     margin: 15px 0;
@@ -502,4 +503,60 @@ h3 {
     .sub-header h1 {
         font-size: 24px;
     }
+}
+
+/* Contact us page  */
+
+.location {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.location iframe {
+    width: 100%;
+}
+
+.contact-us {
+    width: 80%;
+    margin: auto;
+}
+
+.contact-col {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contact-col div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact-col div .fa-sharp {
+    font-size: 28px;
+    color: #f44336;
+    margin: 10px;
+    margin-left: 30px;
+
+}
+
+.contact-col div p {
+    padding: 0;
+}
+
+.contact-col div h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+}
+
+.contact-col input,
+.contact-col textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
 }
