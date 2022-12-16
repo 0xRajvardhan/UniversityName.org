@@ -4,14 +4,14 @@ $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$email_from = 'UniversityName.org';
+$email_from = 'universityname.netlify.app';
 $email_subject = 'New Form Submission';
 $email_body = "User Name: $name.\n" .
-    "User Email: $visitor_email.\n" .
-    "Subject: $subject.\n" .
-    "User Message: $message.\n";
+                "User Email: $visitor_email.\n" .
+                    "Subject: $subject.\n" .
+                        "User Message: $message.\n";
 
-$to = 'singhrajvardhan2003@gmail.com';
+$to = 'rajvardhans2003@gmail.com';
 
 $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $visitor_email \r\n";
